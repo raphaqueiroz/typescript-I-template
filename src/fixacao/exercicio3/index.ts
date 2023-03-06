@@ -5,7 +5,7 @@ Refatore a função para o Typescript.
 */
 
 //DESCOMENTE ESTA FUNÇÃO
-function imprimeTresCoresFavoritas() {
+function imprimeTresCoresFavoritas(): void { // void: Utilizado quando não existe um retorno na função;
   const cor1 = process.argv[2]
   const cor2 = process.argv[3]
   const cor3 = process.argv[4]
