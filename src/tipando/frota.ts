@@ -1,4 +1,14 @@
-export const frota: {}[] = [
+export type TCarro = {
+  marca: string, 
+  modelo: string,
+  ano: number
+}
+
+// tiapndo os atributos do array de objetos "frota"
+
+
+// TCarro[]
+export const frota: Array<TCarro> = [ // Tcarro: limita de acordo com estabelecido acima;
   {
     marca: 'Chevrolet',
     modelo: 'Onix',
